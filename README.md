@@ -9,15 +9,15 @@ A fun side-project to make tier lists in your browser.
 * No "G"-row, no reason just thought it was pointless
 * Colors that more closely represent those of a tierlist from TierMaker.com
 * Removed unnecessary stuff
-
+* Dark/Black-theme
 
 **TODO:**
-* Dark/Black-theme instead of the white one
 * Actual support for drag'n'drop to rows
 * Better way to remove images, clicking just is kinda weird idunno
 * Make the tier list fill more of the screen
 * Feature to edit names of tiers
 * Just bigger icons for adding images and swapping rows, they really small rn.
+* Picture thumbnail while dragging
 
 
 ## Features
