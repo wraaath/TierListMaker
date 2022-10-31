@@ -8,6 +8,7 @@ A fun side-project to make tier lists in your browser.
 **Added:**
 * No "G"-row, no reason just thought it was pointless
 * Colors that more closely represent those of a tierlist from TierMaker.com
+* Removed unnecessary stuff
 
 
 **TODO:**

@@ -92,10 +92,13 @@ function addElementInRow(row_id, table_id) {
 
 function createSettingsTd(row_id, table_id) {
     let add = createFAElement('fas', 'fa-plus');
+	add.style.color = "#ffffff";
     add.addEventListener('click', () => addElementInRow(row_id, table_id));
     let go_up = createFAElement('fas', 'fa-level-up-alt');
+	go_up.style.color = "#ffffff";
     go_up.addEventListener('click', () => moveRowUp(row_id, table_id));
     let go_down = createFAElement('fas', 'fa-level-down-alt');
+	go_down.style.color = "#ffffff";
     go_down.addEventListener('click', () => moveRowDown(row_id, table_id));
 
     let container = document.createElement('td');

@@ -22,8 +22,8 @@
         <script src="/assets/js/tier-table.js" defer></script>
         <script src="/assets/js/main.js" defer></script>
     </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <body class="bg-dark text-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">TierListMaker</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,9 +52,9 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col" class="col-1 text-center">Tier</th>
-                                <th scope="col" class="col-9 text-center">Content</th>
-                                <th scope="col" class="col-2 text-center" id="settings">
+                                <th scope="col" class="col-1 text-center text-light">Tier</th>
+                                <th scope="col" class="col-9 text-center text-light">Content</th>
+                                <th scope="col" class="col-2 text-center text-light" id="settings">
                                     <span class="d-none d-md-inline">Settings</span>
                                     <span class="icon">
                                         <i class="fas fa-cog"></i>
@@ -84,14 +84,14 @@
         <div class="modal" id="addContentModal" tabindex="-1" aria-labelledby="addContentModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header">
+                    <div class="modal-header bg-dark">
                         <h5 class="modal-title" id="addContentModalTitle"></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body" id="addContentModalBody">
+                    <div class="modal-body bg-dark" id="addContentModalBody">
                         <form>
                             <div class="mb-3">
-                                <label for="formFile" class="form-label">Choose an image</label>
+                                <label for="formFile" class="form-label text-light">Choose an image</label>
                                 <input class="form-control" type="file" accept="image/x-png,image/gif,image/jpeg" multiple id="formFile">
                             </div>
                             <div class="form-check form-switch">
@@ -104,7 +104,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer bg-dark">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary" id="addContentModalSaveBtn">Save changes</button>
                     </div>
