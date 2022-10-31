@@ -6,7 +6,6 @@ const tiers = [
     'D',
     'E',
     'F',
-    'G',
 ]
 
 const spacing = () => {
