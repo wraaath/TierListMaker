@@ -3,13 +3,21 @@
 A fun side-project to make tier lists in your browser.
 All credits go to [SuperFola/TierListMaker](https://www.github.com/SuperFola/TierListMaker)
 
+
 ## Fork of SuperFola/TierMakerList
 New changes
 * No "G"-row, no reason just thought it was pointless
 * Colors that more closely represent those of a tierlist from TierMaker.com
 
+
 TODO
 * Dark/Black-theme instead of the white one
+* Actual support for drag'n'drop to rows
+* Better way to remove images, clicking just is kinda weird idunno
+* Make the tier list fill more of the screen
+* Feature to edit names of tiers
+* Just bigger icons for adding images and swapping rows, they really small rn.
+
 
 ## Features
 
@@ -19,6 +27,7 @@ TODO
 * stretch (to a square) or not an image when uploading it using the `+`
 * export as an image
 * everything stays in your browser, nothing is uploaded to the server: you keep your data
+
 
 ## Launching
 
