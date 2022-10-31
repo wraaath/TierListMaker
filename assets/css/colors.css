@@ -1,12 +1,11 @@
 :root {
-    --color-s: lightcoral;
-    --color-a: lightsalmon;
-    --color-b: lightgoldenrodyellow;
+    --color-s: indianred;
+    --color-a: sandybrown;
+    --color-b: khaki;
     --color-c: lightgreen;
-    --color-d: lightseagreen;
-    --color-e: lightskyblue;
-    --color-f: mediumslateblue;
-    --color-g: lightpink;
+    --color-d: lightskyblue;
+    --color-e: darkslateblue;
+    --color-f: darkorchid;
 }
 
 .tlm-color-s { color: var(--color-s) !important; }
@@ -16,7 +15,6 @@
 .tlm-color-d { color: var(--color-d) !important; }
 .tlm-color-e { color: var(--color-e) !important; }
 .tlm-color-f { color: var(--color-f) !important; }
-.tlm-color-g { color: var(--color-g) !important; }
 
 .tlm-bgcolor-s { background-color: var(--color-s) !important; }
 .tlm-bgcolor-a { background-color: var(--color-a) !important; }
@@ -25,4 +23,3 @@
 .tlm-bgcolor-d { background-color: var(--color-d) !important; }
 .tlm-bgcolor-e { background-color: var(--color-e) !important; }
 .tlm-bgcolor-f { background-color: var(--color-f) !important; }
-.tlm-bgcolor-g { background-color: var(--color-g) !important; }
