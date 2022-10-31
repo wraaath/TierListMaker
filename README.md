@@ -1,6 +1,15 @@
 # TierListMaker
 
 A fun side-project to make tier lists in your browser.
+All credits go to [SuperFola/TierListMaker](https://www.github.com/SuperFola/TierListMaker)
+
+## Fork of SuperFola/TierMakerList
+New changes
+* No "G"-row, no reason just thought it was pointless
+* Colors that more closely represent those of a tierlist from TierMaker.com
+
+TODO
+* Dark/Black-theme instead of the white one
 
 ## Features
 
